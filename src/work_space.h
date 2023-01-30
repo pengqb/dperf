@@ -52,7 +52,7 @@ struct tx_queue {
 /* launch every tick */
 struct client_launch {
     uint64_t cc;
-    uint64_t launch_next;
+    uint64_t launch_next;/* 下一次launch时间戳 */
     uint64_t launch_interval;
     uint64_t launch_interval_default;
     uint32_t launch_num;

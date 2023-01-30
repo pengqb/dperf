@@ -1,3 +1,5 @@
 *.o
 output
 *~
+cmake-build-debug/
+.idea/

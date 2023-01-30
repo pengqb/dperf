@@ -30,7 +30,7 @@
 struct eth_addr {
     uint8_t bytes[ETH_ADDR_LEN];
 } __attribute__((__packed__));
-
+//TCPIPÏê½âV1 2.2
 struct eth_hdr {
     struct eth_addr d_addr;
     struct eth_addr s_addr;
